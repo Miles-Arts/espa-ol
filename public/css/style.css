@@ -1,9 +1,10 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    background: black;
+    background: rgb(0, 0, 0);
     width: 90%;
 
 }
+
 
 .encabezado__titulo {
     font-size: 18px;
@@ -26,10 +27,10 @@ body {
 .logo__español__tech {
     padding-top: 1.5%;
     padding-bottom: 1.3%;
-    width: 50px;
-    height: 50px;
-    border-radius: 100%;
-    padding-left: 10%;
+    margin-left: 8%;
+    width: 6rem;
+    height: 6rem;
+    border-radius:50%;
     /*display: flex;
     flex-direction: column;
     align-items: center;
@@ -48,7 +49,7 @@ body {
     align-items: center;
     margin-top: 15px;
     justify-content: space-around;
-    
+
 }
 
 .menu__item {
@@ -73,9 +74,17 @@ body {
     font-size: 18px;
 }
 
+.caja {
+    height: 900px;
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+
+}
+
 .info {
     color: #c235ab;
-    font-size: 0px;
+    font-size: 14px;
     display: flex;
     flex-direction: column;
     align-items: center;
