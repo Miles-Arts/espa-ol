@@ -27,8 +27,16 @@ body {
 
 @media screen and (max-width: 768px) {
     .container {
+        height: 300px;
         display: flex;
         flex-direction: center;
         width: 100%;
+    }
+    .info {
+        color: #c235ab;
+        font-size: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
